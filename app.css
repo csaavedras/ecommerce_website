@@ -7,3 +7,85 @@
   --Dark: #232830;
 
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  font-family: 'Quicksand';
+}
+main {
+  max-width: 375px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.main_logo {
+  margin-top: 100px;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  height: 42px;
+  background-color: var(--Text_input_field);
+  border-radius: 10px;
+  border: 1px solid var(--Text_input_field);
+  margin-bottom: 6px;
+  color: #797979;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 10px;
+}
+label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding-bottom: 6px;
+}
+
+button {
+  outline: none;
+  height: 59px;
+  border-radius: 10px;
+  border: 1px solid var(--Hospital_green);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0001);
+  background-color: var(--Hospital_green);
+  font-weight: 500;
+  color: var(--White);
+  font-size: 1.125rem;
+  line-height: 22px;
+}
+.form_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px 20px 15px;
+}
+.group_btn {
+  display: flex;
+  flex-direction: column;
+  margin: -90px 15px 0 15px;
+  height: 350px;
+  justify-content: space-around;
+}
+.login_btn {
+  margin-top: 40px;
+}
+.forgot_btn {
+  text-align: center;
+  text-decoration: none;
+  color: var(--Hospital_green);
+  margin-top: -40px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17.5px;
+}
+.singup_btn {
+  border: 1px solid var(--Hospital_green);
+  color: var(--Hospital_green);
+  background-color: transparent;
+}
