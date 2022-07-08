@@ -26,6 +26,7 @@ main {
 }
 .main_logo {
   margin-top: 100px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -88,4 +89,12 @@ button {
   border: 1px solid var(--Hospital_green);
   color: var(--Hospital_green);
   background-color: transparent;
+}
+/* Text Login error  */
+.login_err_text {
+  text-align: center;
+  font-size: 0.785rem;
+  font-weight: lighter;
+  color: #d25050;
+  display: none;
 }
