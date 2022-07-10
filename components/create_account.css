@@ -1,0 +1,74 @@
+:root {
+    --Very_light_pink: #C7C7C7;
+    --Black: #000000;
+    --White: #FFFFFF;
+    --Hospital_green: #ACD9B2;
+    --Text_input_field: #F7F7F7;
+    --Dark: #232830;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Quicksand';
+}
+.navbar_mobile {
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.046805);
+}
+.logo_xs {
+    width: 25%;
+}
+.title_section {
+    padding-left: 15px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 22.5px;
+    margin-bottom: 50px;
+}
+input {
+    outline: none;
+    height: 42px;
+    background-color: var(--Text_input_field);
+    border-radius: 10px;
+    border: 1px solid var(--Text_input_field);
+    margin-bottom: 6px;
+    color: #797979;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 10px;
+  }
+  label {
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding-bottom: 6px;
+  }
+  
+  button {
+    outline: none;
+    height: 59px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--Hospital_green);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0001);
+    background-color: var(--Hospital_green);
+    font-weight: 500;
+    color: var(--White);
+    font-size: 1.125rem;
+    line-height: 22px;
+
+  }
+  .form_login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px 20px 15px;
+  }
+  
